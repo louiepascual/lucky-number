@@ -1,4 +1,4 @@
-package main
+package printers
 
 import (
 	"fmt"
@@ -9,11 +9,10 @@ import (
 
 )
 
-func main() {
+func PrintLuckyNumber() {
 	green := color.New(color.FgGreen)
 
 	fmt.Printf("Your lucky number is ")
 	green.Printf("%d!\n", random.Number())
 
 }
-
