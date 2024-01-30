@@ -15,6 +15,12 @@ func main() {
 	fmt.Printf("Your lucky number is ")
 	green.Printf("%d!\n", random.Number())
 
+}
 
+func PrintLuckyNumber() {
+	green := color.New(color.FgGreen)
+
+	fmt.Printf("Your lucky number is ")
+	green.Printf("%d!\n", random.Number())
 
 }
